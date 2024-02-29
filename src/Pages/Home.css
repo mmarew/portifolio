@@ -1,0 +1,53 @@
+.home-wrapper {
+}
+
+.helloThere > p {
+  font-weight: bold;
+
+  font-size: 7vw;
+
+  padding: 20px 0;
+}
+.rightSide img {
+  display: block;
+}
+.description {
+  font-size: 20px;
+}
+img {
+  width: 80%;
+}
+.elipseImg {
+  position: absolute;
+  overflow: hidden;
+  left: -10rem;
+  height: 85vh;
+  top: 10vh;
+  max-width: 600px;
+}
+.iconsWhatIwork {
+  display: flex;
+}
+
+@media only screen and (min-width: 768px) {
+  .home-wrapper {
+    max-width: 1160px;
+    display: flex;
+    flex-wrap: wrap !important;
+    margin-left: 5vw;
+  }
+  .elipseImg {
+    left: -15vw;
+  }
+  .helloThere > p {
+    font-size: 40px;
+  }
+  .rightSide img {
+    width: 70%;
+    /* display: block; */
+    margin-left: auto;
+  }
+}
+/* position: absolute;
+overflow: hidden;
+left: -5rem; */

@@ -1,0 +1,14 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "manrope", sans-serif;
+  font-size: 20px;
+}
+.lemonColor {
+  color: #00adb5;
+  width: fit-content;
+}
+Button {
+  background-color: #00adb5 !important;
+  color: white !important;
+}

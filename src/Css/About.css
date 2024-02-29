@@ -1,0 +1,20 @@
+.elipseImgRightSide {
+  position: absolute;
+  transform: scaleX(-1);
+  width: 30vw;
+  overflow: hidden;
+  bottom: -10px;
+  right: -3%;
+  width: 20%;
+}
+.iconsWhatIwork {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+}
+.iconsWhatIwork img {
+  width: 28px;
+  margin: 10px;
+}
+@media screen and (min-width: 600px) {
+}
